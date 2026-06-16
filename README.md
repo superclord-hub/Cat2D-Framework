@@ -1,97 +1,242 @@
-🐱 Cat Engine
+# <p align="center">Cat Engine</p>
 
-A Engine Lua para Android criada para remover limites.
-Desenvolvida em Lua e C++, a Cat Engine combina desempenho extremo, simplicidade e evolução guiada pela comunidade para tornar possível a criação de jogos mobile verdadeiramente ambiciosos. 
+<p align="center">
+  <img src="assets/banner.png" alt="Banner da Cat Engine" width="100%">
+</p>
 
-📚 Documentação • 📦 Baixar APK • 💬 Sugestões e Feedback 
+<p align="center">
+<strong>A Engine Lua para Android criada para remover limites.</strong><br>
+Desenvolvida em Lua e C++, a Cat Engine combina desempenho, simplicidade e evolução guiada pela comunidade para tornar possível a criação de jogos mobile verdadeiramente ambiciosos.
+</p>
 
-O que é a Cat Engine? 
+<p align="center">
+  <a href="https://catengine.netlify.app/">Site Oficial</a>
+  •
+  <a href="https://discord.gg/CwEnEA9RwR">Discord Oficial</a>
+  •
+  <a href="https://youtu.be/BUzkJsXwzSI">YouTube Oficial</a>
+  
 
-A Cat Engine é uma engine de jogos desenvolvida especificamente para Android.
+---
 
-Ela nasceu da ideia de que desenvolver jogos para dispositivos móveis não deveria significar abrir mão de desempenho, liberdade criativa ou recursos avançados.
+<p align="center">
+  <img src="assets/demo.gif" alt="Demonstração da Cat Engine" width="100%">
+</p>
 
-Seu objetivo é eliminar limitações comuns encontradas em frameworks mobile tradicionais, oferecendo uma experiência simples para iniciantes e poderosa para desenvolvedores experientes.
+<p align="center">
+<em>Projetada para levar o desenvolvimento mobile além das limitações tradicionais.</em>
+</p>
 
-Projetada desde o início para dispositivos Android, a Cat Engine busca entregar ferramentas modernas, integração nativa e um núcleo altamente otimizado capaz de acompanhar projetos cada vez mais ambiciosos.
+---
 
-Filosofia 
+# O que é a Cat Engine?
+
+A Cat Engine é uma engine de jogos desenvolvida exclusivamente para Android.
+
+Ela nasceu da ideia de que criar jogos para dispositivos móveis não deveria significar abrir mão de desempenho, liberdade criativa ou recursos avançados.
+
+Seu propósito é remover limitações frequentemente encontradas em frameworks mobile tradicionais, oferecendo uma experiência simples para iniciantes e poderosa para desenvolvedores experientes.
+
+Projetada especificamente para o ecossistema Android, a Cat Engine busca unir facilidade de uso, integração nativa e um núcleo altamente otimizado capaz de acompanhar projetos cada vez mais ambiciosos.
+
+---
+
+# Filosofia
 
 Acreditamos que uma engine deve evoluir junto com quem a utiliza.
 
-A comunidade é uma das bases do desenvolvimento da Cat Engine. Sugestões, críticas construtivas e necessidades reais dos desenvolvedores ajudam a definir o futuro do projeto.
+A Cat Engine é desenvolvida ouvindo sua comunidade, entendendo os desafios enfrentados pelos criadores e transformando essas necessidades em melhorias reais.
 
-Nosso compromisso é construir uma engine que seja:
+Nosso compromisso é construir uma tecnologia que seja:
 
-Simples de utilizar; Poderosa quando necessário; Transparente em sua documentação; Adaptada às necessidades reais do desenvolvimento mobile; Capaz de crescer sem impor barreiras ao criador. Tecnologias Utilizadas 
+- Simples de aprender;
+- Poderosa quando necessário;
+- Transparente em sua documentação;
+- Adaptada às necessidades reais do desenvolvimento mobile;
+- Livre das limitações encontradas em soluções tradicionais;
+- Preparada para acompanhar projetos de qualquer porte.
 
-A simplicidade da API é sustentada por tecnologias consolidadas e de alto desempenho.
+---
 
-Linguagem da API Lua Núcleo da Engine C++ Renderização OpenGL ES 3.2 GLSL ES (Shaders) Física Chipmunk2D Plataforma Android Native APIs JNI Recursos Renderização 
+# Tecnologias Utilizadas
 
-Sistema gráfico otimizado para Android, oferecendo suporte a texturas, fontes, renderização em Canvas, efeitos com Shaders, FastBatch para grandes quantidades de objetos e acesso a recursos avançados do OpenGL ES.
+A simplicidade da API é sustentada por tecnologias consolidadas e altamente eficientes.
 
-Física 
+## Linguagem da API
 
-Baseada na biblioteca Chipmunk2D, a Cat Engine disponibiliza colisões precisas, corpos rígidos, constraints, raycasts e consultas espaciais para diferentes estilos de jogo.
+- Lua
 
-Recursos Nativos do Android 
+## Núcleo da Engine
 
-A engine integra funcionalidades presentes no próprio sistema operacional, incluindo:
+- C++
 
-Multitoque; Gestos; Vibração; Sensores do dispositivo; Teclado virtual; Seleção de arquivos; Acesso a recursos nativos. Sistemas Avançados 
+## Renderização
 
-Além dos recursos essenciais, a Cat Engine inclui diversos sistemas auxiliares para acelerar o desenvolvimento:
+- OpenGL ES 3.2
+- GLSL ES (Shaders)
 
-ECS (Entity Component System); Eventos e Plugins; Tween; Async; Threads; JSON; Spatial Hash; Sistema de Partículas; Joystick Virtual; Sistema Experimental 3D. Como a Cat Engine Funciona 
+## Física
 
-A Cat Engine utiliza Lua como linguagem de alto nível para proporcionar uma experiência simples, produtiva e acessível.
+- Chipmunk2D
 
-Enquanto o desenvolvedor trabalha com uma API intuitiva, o processamento mais crítico é executado por um núcleo escrito em C++, responsável por otimizar tarefas intensivas e reduzir gargalos de desempenho.
+## Integração com o Sistema
 
-A renderização é realizada através do OpenGL ES 3.2, permitindo o uso eficiente da GPU em dispositivos Android modernos.
+- Android Native APIs
+- JNI
 
-O sistema de física utiliza Chipmunk2D para fornecer simulações estáveis e precisas, enquanto a integração com APIs nativas do Android garante acesso direto aos recursos do dispositivo.
+---
 
-O resultado é uma engine construída especificamente para o ambiente mobile, preparada para atender desde projetos simples até jogos de grande escala.
+# Recursos
 
-Documentação 
+## Renderização Moderna
 
-Toda a documentação oficial encontra-se disponível na pasta:
+A Cat Engine oferece um sistema gráfico otimizado para Android, permitindo o desenvolvimento de interfaces, efeitos visuais e cenas complexas com excelente desempenho.
 
-docs/ 
+Entre os recursos disponíveis estão:
 
-A documentação foi projetada para responder rapidamente às principais dúvidas durante o desenvolvimento.
+- Renderização de texturas;
+- Fontes e efeitos de texto;
+- Canvas;
+- FastBatch;
+- 9-Slice;
+- Sistema de Shaders;
+- OpenGL de baixo nível;
+- Sistema experimental 3D.
+
+---
+
+## Física
+
+Baseada na biblioteca Chipmunk2D, a engine fornece um conjunto completo de ferramentas para simulações estáveis e previsíveis.
+
+Incluindo:
+
+- Corpos rígidos;
+- Colisões;
+- Raycasts;
+- Constraints;
+- Callbacks de colisão;
+- Consultas espaciais.
+
+---
+
+## Recursos Nativos do Android
+
+Por ter sido desenvolvida especificamente para Android, a Cat Engine possui integração com diversos recursos do próprio sistema operacional.
+
+Entre eles:
+
+- Multitoque;
+- Gestos;
+- Vibração;
+- Sensores do dispositivo;
+- Teclado virtual;
+- Seleção de arquivos;
+- Recursos nativos do Android.
+
+---
+
+## Sistemas Avançados
+
+Além das funcionalidades essenciais, a engine inclui sistemas auxiliares que aceleram o desenvolvimento.
+
+Como:
+
+- ECS (Entity Component System);
+- Eventos e Plugins;
+- Tween;
+- Async;
+- Threads;
+- JSON;
+- Spatial Hash;
+- Sistema de partículas;
+- Joystick virtual;
+- Ferramentas utilitárias.
+
+---
+
+# Como a Cat Engine Funciona
+
+A experiência do desenvolvedor é construída sobre Lua, proporcionando produtividade, simplicidade e rapidez durante a criação do jogo.
+
+Por trás dessa camada acessível existe um núcleo escrito em C++, responsável pelo processamento intensivo e otimizações críticas.
+
+A renderização é realizada através do OpenGL ES 3.2, utilizando eficientemente a GPU disponível nos dispositivos Android modernos.
+
+O sistema físico utiliza Chipmunk2D para garantir precisão e estabilidade, enquanto a integração com APIs nativas permite acesso direto às funcionalidades do dispositivo.
+
+O resultado é uma engine criada especificamente para o ambiente mobile, preparada para atender desde projetos independentes até experiências significativamente mais ambiciosas.
+
+---
+
+# Documentação
+
+Toda a documentação oficial está disponível na pasta:
+
+```text
+docs/
+```
+
+A documentação foi desenvolvida para responder rapidamente às dúvidas mais comuns durante o desenvolvimento.
 
 Cada módulo explica:
 
-O que ele faz; Como deve ser utilizado; Seus parâmetros e retornos; Situações de uso incorreto; Recomendações e boas práticas. 
+- O que ele faz;
+- Como deve ser utilizado;
+- Parâmetros e retornos;
+- Situações de uso incorreto;
+- Recomendações;
+- Boas práticas.
 
 Caso esteja começando, recomendamos iniciar por:
 
-docs/index.md Downloads 
+```text
+docs/index.md
+```
 
-As versões oficiais da Cat Engine são disponibilizadas através da seção Releases deste repositório.
+---
 
-Cada lançamento pode incluir:
+# Downloads
 
-APKs para Android; Registro de mudanças; Correções e melhorias; Novos recursos adicionados à engine. Sobre o Projeto 
+As versões oficiais da Cat Engine são distribuídas através da seção Releases deste repositório.
+
+Cada lançamento poderá incluir:
+
+- APKs para Android;
+- Histórico de alterações;
+- Correções e melhorias;
+- Novos recursos;
+- Informações sobre compatibilidade.
+
+---
+
+# Comunidade
+
+A evolução da Cat Engine é influenciada pelas experiências de seus usuários.
+
+Se você encontrou um problema, possui sugestões ou deseja compartilhar ideias para futuras versões, utilize a área de Issues deste repositório ou participe dos canais oficiais da comunidade.
+
+A participação da comunidade é um dos pilares deste projeto.
+
+---
+
+# Sobre o Projeto
 
 A Cat Engine é uma tecnologia proprietária.
 
 O código-fonte da engine não é disponibilizado publicamente.
 
-Este repositório existe para fornecer documentação oficial, materiais de apresentação, informações sobre atualizações e arquivos distribuídos pelo autor do projeto.
+Este repositório existe com o objetivo de fornecer:
 
-Feedback da Comunidade 
+- Documentação oficial;
+- Informações sobre atualizações;
+- Materiais de apresentação;
+- Downloads autorizados;
+- Canais oficiais de comunicação.
 
-A evolução da Cat Engine é influenciada pelas experiências e necessidades dos seus usuários.
+---
 
-Se você encontrou um problema, deseja sugerir melhorias ou compartilhar ideias para futuras versões, utilize a área de Issues deste repositório.
-
-Sua participação ajuda a tornar a Cat Engine cada vez melhor.
-
-Direitos Autorais 
+# Direitos Autorais
 
 Cat Engine é uma tecnologia proprietária.
 
@@ -99,5 +244,8 @@ Todos os direitos reservados.
 
 © Gollow. Todos os direitos reservados.
 
-Feita para desenvolvedores que acreditam que jogos mobile podem ir além. 
+---
 
+<p align="center">
+Desenvolvida para criadores que acreditam que jogos mobile podem ir além.
+</p>
