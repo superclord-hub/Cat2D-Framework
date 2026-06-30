@@ -19,7 +19,7 @@ Desenvolvida em **Lua** e **C++**, a Cat Engine combina desempenho, simplicidade
 [![Renderização](https://img.shields.io/badge/render-OpenGL%20ES%203.2-5586A4?style=for-the-badge&logo=opengl&logoColor=white)](#)
 [![Licença](https://img.shields.io/badge/licença-Proprietária-red?style=for-the-badge)](#)
 
-**[🌐 Site Oficial](#) • [💬 Discord Oficial](#) • [▶️ YouTube Oficial](#)**
+**[🌎 Site Oficial](#) • [🗨 Discord Oficial](#) • [📍 YouTube Oficial](#)**
 
 </div>
 
