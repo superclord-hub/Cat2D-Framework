@@ -32,7 +32,7 @@ Desenvolvida em **Lua** e **C++**, a Cat Engine combina desempenho, simplicidade
   do Android + conversor online resolvem isso rápido.
 -->
 <div align="center">
-  <img src="assets/cubo.gif" alt="Demonstração da Cat Engine em funcionamento" width="60%">
+  <img src="assets/demo.gif" alt="Demonstração da Cat Engine em funcionamento" width="60%">
   <p><em>O Loader abrindo e executando um projeto da pasta catgame/.</em></p>
 </div>
 
